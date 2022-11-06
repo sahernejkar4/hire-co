@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+.w3-modal {
+   position: absolute;
+   top: 100px;
+   right: 100px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+
+
+</style>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html#home">home</a>
+        <a href="index.html#about">about</a>
+        <a href="index.html#men">men</a>
+        <a href="index.html#women">women</a>
+        <a href="index.html#review">review</a>
+        <a href="index.html#contact">contact</a>
+        <a href="https://hire003.wordpress.com/" target="_blank">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+</header>
+
+<!-- header section ends -->
+<section class="" id="" style="margin-top:100px;">
+<nav class="crumbs" style="margin-left:20px;margin-top:20px;">
+    <ol>
+        <li class="crumb"><a href="index.html#home">Home</a></li>
+        <li class="crumb"><a href="index.html#men">Menswear</a></li>
+        <li class="crumb">Mens S1</li>
+    </ol>
+</nav>
+</section>
+<!-- home section starts  -->
+<section class="" id="">
+<div class="container">
+    
+    <div class="row pt-0 pb-4 no-gutters">
+        <div class="col-1">
+            <a href="javascript:void(0)" class="myhover" onclick="openImg('p1');" >
+                <img class="img-fluid" src="images/mens1.1.jpeg" alt="men" height="100" width="60" style="margin-bottom: 5px;">
+            </a>
+            <br>
+            <a href="javascript:void(0)" class="myhover" onclick="openImg('p2');" >
+                <img class="img-fluid" src="images/mens1.2.jpeg" alt="men" height="100" width="60" style="margin-bottom: 5px;">
+            </a>
+            <br>
+            <a href="javascript:void(0)" class="myhover" onclick="openImg('p3');" >
+                <img class="img-fluid" src="images/mens1.3.jpeg" alt="men" height="100" width="60" style="margin-bottom: 5px;">
+            </a>
+            <br>
+            <a href="javascript:void(0)" class="myhover" onclick="openImg('p4');" >
+                <img class="img-fluid" src="images/mens1.4.jpeg" alt="Rocks" height="100" width="60" style="margin-bottom: 5px;">
+            </a>
+            <br>
+            <a href="javascript:void(0)" class="myhover" onclick="openImg('p5');" >
+                <img class="img-fluid" src="images/mens1.5.jpeg" alt="Rocks" height="100" width="60" style="margin-bottom: 5px;">
+            </a>
+        </div>
+        <div class="col-4">
+            <div id="p1" class="picture" style="display:block">
+                <img class="img-fluid" src="images/mens1.1.jpeg" alt="Men" height="600" width="300">
+            </div>
+            <div id="p2" class="picture" style="display:none">
+                <img class="img-fluid" src="images/mens1.2.jpeg" alt="men" height="600" width="300">
+            </div>
+            <div id="p3" class="picture" style="display:none">
+                <img class="img-fluid" src="images/mens1.3.jpeg" alt="men" height="600" width="300">
+            </div>
+            <div id="p4" class="picture" style="display:none">
+                <img class="img-fluid" src="images/mens1.4.jpeg" alt="men" height="600" width="300">
+            </div>
+            <div id="p5" class="picture" style="display:none">
+                <img class="img-fluid" src="images/mens1.5.jpeg" alt="men" height="600" width="300">
+            </div>
+            
+        </div>
+        <div class="col-7">
+            <div style="float:left; font-size: 13px;">
+                <h1>Mens S1</h1>
+                <p>SKU: MensS1<br>Design Code : MensS1<br>Color: Fawn</p>
+                
+                <a href="#" style="font-size: 13px;" onclick="document.getElementById('id01').style.display='block'">Call For Pricing</a>
+                <br>
+                <br>
+                <div style="border:1px solid; border-right:none; padding-top:10px; padding-bottom:10px; border-left:none; width:100%;">
+                    <h3>PRODUCT DETAILS</h3>
+                    <p>A chic fawn base sherwani worked with white embroidery and sleek pearl detailing.</p>
+                    
+                </div>
+                <div style="margin-top:10px; font-size: 13px;">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Select your Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                      </select>
+                </div>
+
+                <div style="margin-top:10px; font-size: 13px;">
+                    <button type="button" class="btn btn-dark" style="font-size: 13px;width: 100%;" onclick="document.getElementById('id01').style.display='block'">Inquire Now</button>
+                      
+                </div>
+                <br>
+                <div style="border:1px solid; border-right:none; padding-top:10px; padding-bottom:10px; border-left:none; width:100%;">
+                    <h3>CARE INSTRUCTION</h3>
+                    <p>Store the outfit in the garment bag. Dry clean only.</p>
+                    
+                </div>
+            </div>
+        </div>
+   
+    </div>
+</div>
+</section>
+<!-- footer section starts  -->
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <header class="w3-container w3-teal" style="padding:10px;"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright" style="font-size:17px;">&times;</span>
+        <h2>GET IN TOUCH</h2>
+      </header>
+      <div class="w3-container">
+        <center>
+            <span style="font-size:18px;">
+                Take a screenshot, call/WhatsApp us at<br>
+                <b>+91-921-3222256</b><br>
+                or email at<br>
+                <b>hireandcohub@gmail.com</b>
+            </span> 
+        </center>
+        
+      </div>
+      <footer class="w3-container w3-teal">
+        
+      </footer>
+    </div>
+  </div>
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/hire003co/" target="_blank" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    
+
+    <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
+
+<script>
+
+    function openImg(imgName) {
+        var i, x;
+        x = document.getElementsByClassName("picture");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(imgName).style.display = "block";
+    }
+    </script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
